@@ -1,0 +1,274 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "name": "Razer BlackWidow V3 Pro",
+            "image": "https://dl.razerzone.com/src/3809-1-EN-v1.png",
+            "specifications": "Switches: Razer Green (clicky) or Yellow (linear)Backlight: Per-key RGBType: Full-sizeSize: 17.7 x 9.8 x 1.7 inches (450.7 x 248.4 x 42.3mm)Weight: 3.1 pounds (1,423g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 1,
+            "name": "Redragon K596 Vishnu",
+            "image": "https://xsreviews.co.uk/wp-content/uploads/2020/12/K596RGB-2.png",
+            "specifications": "Switches: Outemu RedBacklight: RGBType: TenkeylessSize: 15 x 6 x 1.5 inches (381 x 152 x 38mm)Weight: 3.64 pounds 1.65kg)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 2,
+            "name": "Corsair K100 Air Wireless RGB",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/633bfd93a3184bdcab78b209/0x0.png?format=png&crop=1756,988,x28,y0,safe&width=1200",
+            "specifications": "Switches: Cherry MX Ultra Low ProfileBacklight: Per-key RGBType: Full-sizeSize: 17.3 x 6.15 x 0.67 inches (439.42 x 156.210 x 17.03mm)Weight: 1.72 pounds (780.18g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 3,
+            "name": "Logitech G915 Lightspeed",
+            "image": "https://resource.logitech.com/content/dam/gaming/en/products/g915/g915-gallery/fra-g915-wireless-gallery-topdown.png",
+            "specifications": "Switches: Logitech GL (low-profile; tactile, clicky or linear)Backlight: Per-key RGBType: Full-sizeSize: 18.7 x 5.9 x 0.87 inches (475 x 150 x 22mm)Weight: 2.26 pounds (1,025g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 4,
+            "name": "Razer DeathStalker V2 Pro",
+            "image": "https://assets3.razerzone.com/PP9VWUi1uW4DQ_n5PNgdV9ggSGQ=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhde%2Fhf6%2F9422671118366%2Fdeathstalker-v2-pro-tenkeyless-500x500.png",
+            "specifications": "Switches: Razer Low-Profile Optical (Linear or Clicky)Backlight: Per-key RGBType: Full-sizeSize: 17.2 x 5.5 x 1 inches (437 x 139 x 26mm)Weight: 1.7 pounds (776.5g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 5,
+            "name": "SteelSeries Apex Pro TKL Wireless",
+            "image": "https://www.gearrate.com/en/wp-content/uploads/sites/2/2020/06/buyimg_apexprotkl_006_us__1850x800_q100_crop-scale_optimize_subsampling-2-1.png",
+            "specifications": "Switches: SteelSeries OmniPoint 2.0Backlight: Per-key RGBType: TKLSize: 14 x 5.04 x 1.65 inche (355 x 128 x 42 mm)Weight: 1.65lbs (747g) without cable",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 6,
+            "name": "Akko 3098B",
+            "image": "https://www.gaminggearskh.com/Content/Upload/Item/05197873-73fb-4e16-a82a-8b4fc1d55237.png",
+            "specifications": "Switches: Akko CS Jelly White, CS Jelly Pink, CS Jelly Blue (3098B) or Akko TTC Silent Red V3 Switches or TTC Princess switches (3098N)Backlight: ?Type: 96%Size: 15 x 5.3 x 1.6 inches (382 x 134 x 40mm)Weight: 2.4 pounds (1.1kg)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 7,
+            "name": "Logitech MX Mechanical Keyboard",
+            "image": "https://resource.logitech.com/content/dam/logitech/en/products/keyboards/mx-mechanical/gallery/mx-mechanical-keyboard-top-view-graphite-us.png",
+            "specifications": "Switches: Kailh Choc V2 Blue, Red or BrownBacklight: White, 6 patternsType: Full-sizeSize: 17.1 x 5.2 x 0.31 inches (433.9 x 131.7 x 7.8 mm)Weight: 1.8 pounds (828g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 8,
+            "name": "iQunix A80 Explorer",
+            "image": "https://ae01.alicdn.com/kf/S4023c108f1354878ab6036414c31bbe6S/IQUNIX-A80-Explorer-Hotswap-Keyboard-For-laptop-Wireless-Mechanical-Keyboard-Aluminum-Alloy-Pbt-Keycaps-Cherry-Mx.jpg",
+            "specifications": "Switches: Cherry MX Red (tested), Blue, Brown, Silver, Silent Red; Gateron Red, Blue, BrownBacklight: RGBType: 80%Size: 12.6 x 6.3 x 2.1 inches (321 x 159 x 52mm)Weight: 3.5 pounds (1.6kg)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 9,
+            "name": "Corsair K63 Wireless Gaming Keyboard and Lapboard Combo",
+            "image": "https://i5.walmartimages.com/asr/80d05b95-feb7-4dc3-871f-ad614799f6c8.c2bbffe2ad18ed5ede0225ba77ae4508.png",
+            "specifications": "Switches: Cherry MX Red (linear)Backlight: BlueType: TenkeylessSize: 26.3 x 10.5 x 2 inchesWeight: 6.5 pounds (2.9kg)",
+            "price": "1",
+            "stock": 1000,
+            "category": "keyboards"
+        },
+        {
+            "id": 10,
+            "name": "Razer Basilisk V3",
+            "image": "https://assets2.razerzone.com/images/pnx.assets/3fe92e52448be538acc270a7da7a08ef/razer-basilisk-v3-pro-500x500.png",
+            "specifications": "Sensor: Razer Focus+DPI: Up to 20,000 native (26,000 via software)IPS: 650 IPSAcceleration: 50gInterface: USB Type-A cableErgonomics: Right-handed ergonomicProgrammable Buttons: 13, including 5x scroll wheelWeight: 3.3 ounces (93.55g)Dimensions (LxWxH): 5.11 x 2.36 x 1.65 inches (129.79 x 59.94 x 41.91mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 11,
+            "name": "Logitech G502 Lightspeed",
+            "image": "https://resource.logitech.com/content/dam/gaming/en/products/g502-lightspeed-gaming-mouse/g502-lightspeed-gallery-1.png",
+            "specifications": "Sensor: Logitech Hero 16KDPI: 16,000IPS: >400Acceleration: > 40gInterface: USB Type-A dongle or wiredErgonomics: Right-handedProgrammable Buttons: 11Weight: 4.02-4.59 ounces (114-130g)Dimensions (LxWxH): 5.20 x 2.95 x 1.57 inches (132 x 75 x 40mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 12,
+            "name": "Razer DeathAdder V3 Pro",
+            "image": "https://dl.razerzone.com/src/6130/6130-1-en-v2.png",
+            "specifications": "Sensor: Razer Focus+DPI: 20,000IPS: 650Acceleration: 50gInterface: USB Type-A dongle, Bluetooth or wiredErgonomics: Right-handedProgrammable Buttons: 8Weight: 3.1 ounces (87.88g)Dimensions (LxWxH): 5 x 2.42 x 1.68 inches (127 x 61.47 x 42.67mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 13,
+            "name": "Corsair Katar Pro XT",
+            "image": "https://culturageek.com.ar/wp-content/uploads/2021/02/unnamed.png",
+            "specifications": "Sensor: Pixart PMW3391DPI: 18,000IPS: 400Acceleration: 50gInterface: USB Type-AErgonomics: Right-handed, claw, fingertipProgrammable Buttons: 6Weight: 2.68 ounces (73g)Dimensions (LxWxH): 4.56 x 2.53 x 1.49 inches (115.8 x 64.2 x 37.8mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 14,
+            "name": "Glorious Model D-",
+            "image": "https://bermorzone.com.ph/wp-content/uploads/2022/09/glorious-model-d-wireless-ph.webp",
+            "specifications": "Sensor: Pixart PMW3360DPI: 12,000IPS: 250-plusAcceleration: 50gInterface: USB Type-AErgonomics: Right-handed palm, claw grip or smaller handsProgrammable Buttons: 6Weight: 2.15 ounces (61g)Dimensions (LxWxH): 4.72 x 2.40-2.64 x 1.30-1.57 inches (120 x 61-67 x 33-40mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 15,
+            "name": "Cooler Master MM720",
+            "image": "https://lezamapc.com.ar/29554-thickbox_default/mouse-cooler-master-gamer-cm-mm720-rgb-blanco-mate.jpg",
+            "specifications": "Sensor: PixArt PMW3389DPI: Up to 16,000 CPI native (32,000 via software)IPS: 400 IPSAcceleration: 50gInterface: USB Type-A cableErgonomics: Right-handed, ergonomicProgrammable Buttons: 6Weight: 1.72 ounces (49g)Dimensions (LxWxH): 4.15 x 3.01 x 1.47 inches (105.42 x 76.5 x 37.4mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 16,
+            "name": "Corsair Ironclaw RGB",
+            "image": "https://hnie-assets.s3-eu-west-1.amazonaws.com/products/106-CH-9317011/-CH-9317011-AP-Gallery-IRONCLAW-RGB-WIRELESS-01.png",
+            "specifications": "Sensor: Pixart PMW3391DPI: 18,000IPS: 450Acceleration: 50gInterface: Wireless (2.4 GHz USB Type-A dongle or Bluetooth)Ergonomics: Right-handed, palm gripsProgrammable Buttons: 5Weight: 4.59 ounces (130g)Dimensions (LxWxH): 5.5 x 3 x 1.6 inches (140 x 77 x 40mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 17,
+            "name": "Razer Basilisk Ultimate",
+            "image": "https://computerarenakh.com/image/catalog/SEA%20DARA/11.%20LIQUID%20COOLING%20/https___hybrismediaprod.blob.core.windows.net_sys-master-phoenix-images-container_h2f_h71_9125416894494_razer-basilisk-ultimate-dock_500x500.png",
+            "specifications": "Sensor: Razer Focus+ OpticalDPI: 20,000IPS: 650Acceleration: 50gInterface: USB / 2.4 GHz wirelessErgonomics: Right handed palm and claw gripProgrammable Buttons: 11Weight: 3.78 ounces (107g)Dimensions (LxWxH): 5.11 x 2.36 x 1.65 inches (130 x 60 x 42mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 18,
+            "name": "Razer Naga Trinity",
+            "image": "https://hardzone.es/app/uploads-hardzone.es/2017/11/Razer-Naga-Trinity-01-1024x768.png",
+            "specifications": "Sensor: PixArt PMW 3389DPI: 16,000IPS: 450Acceleration: 50GInterface: USBErgonomics: Right handed, palm gripProgrammable Buttons: 19Weight: 4.23 ounces (120g)Dimensions (LxWxH): 4.69 x 2.91 x 1.69 inches (119 x 74 x 43mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 19,
+            "name": "Glorious Model O-",
+            "image": "https://cdn.shopify.com/s/files/1/0549/2681/products/glorious_model_o_wired_minus_white_matte_1.png?v=1663183478",
+            "specifications": "Sensor: Pixart PMW-3360DPI: 12,000IPS: ~250Acceleration: 50GInterface: USBErgonomics: Ambidextrous, claw grip or small handsProgrammable Buttons: 5Weight: 2.08 ounces (58g)Dimensions (LxWxH): 4.72 x 2.28 x 1.42 inches (120 x 58 x 36mm)",
+            "price": "1",
+            "stock": 1000,
+            "category": "mouse"
+        },
+        {
+            "id": 20,
+            "name": "SteelSeries Arctis Nova Pro Wireless",
+            "image": "https://media.steelseriescdn.com/thumbs/filer_public/19/4d/194dbe73-3343-40ae-876c-d8b308ea37cf/imgbuy_arctis_nova_pro_wl_black_3_v2.png__1850x800_crop-scale_optimize_subsampling-2.png",
+            "specifications": "Driver: 40mm custom driversImpedance: 38 OhmsFrequency response: 10 - 22,000HzMic: Bidirectional noise canceling, fully retractableConnectivity: (Simultaneous) Wireless 2.4 GHz and Bluetooth 5.0Weight: 0.75 pounds (339g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 21,
+            "name": "Corsair Virtuoso RGB Wireless SE",
+            "image": "https://www.corsair.com/medias/sys_master/images/images/h3b/h21/9312776814622/-CA-9011180-NA-Gallery-VIRTUOSO-SE-01.png",
+            "specifications": "Driver: 50mm neodymiumImpedance: 32 OhmsFrequency response: 20-40,000 HzMic: OmnidirectionalConnectivity: USB Type-A 2.4 GHz dongleWeight: 0.8 pounds(360g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 22,
+            "name": "SteelSeries Arctis Nova 1",
+            "image": "https://media.steelseriescdn.com/thumbs/filer_public/45/37/4537c9d2-81bb-4324-9e45-de58f521c22c/arctis_nova_1_white_pdp_img_buy_06.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+            "specifications": "Driver: 40mm customImpedance: 36 OhmsFrequency response: 20-22,000 HzMic: Bidirectional, noise-cancelingConnectivity: Wired (3.5mm aux)Weight: 8.3oz (235g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 23,
+            "name": "Razer Barracuda Pro Wireless",
+            "image": "https://dl.razerzone.com/src/6039/6039-1-en-v1.png",
+            "specifications": "Driver: 50mm custom driversImpedance: 32 OhmsFrequency response: 20 - 20,000 HzMic: Dual integrated beamforming noise cancelingConnectivity: (Simultaneous) Wireless 2.4 GHz and Bluetooth 5.2Weight: 0.75 pounds (340g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 24,
+            "name": "Creative SXFI Air Gamer",
+            "image": "http://d287ku8w5owj51.cloudfront.net/images/products/hero/creative-sxfi-air-gamer/hero-sxfi-air-gamer.png?width=1200&height=600",
+            "specifications": "Driver: 50mm neodymiumImpedance: > 2.2 kohmsFrequency response: 20-20,000 HzMic: 2x bidirectional, 1x omnidirectionalConnectivity: Bluetooth 5.0, USB-C cable, 3.5mm cableWeight: 0.8 pounds (335g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 25,
+            "name": "Corsair Virtuoso RGB Wireless XT",
+            "image": "https://cwsmgmt.corsair.com/pdp/virtuoso/tpain/img/microphone_product_photo.png",
+            "specifications": "Driver: 50mm neodymiumImpedance: 32 OhmsFrequency response: 20-40,000 HzMic: OmnidirectionalConnectivity: 3.5mm, USB Type-A cable, USB Type-A dongle, BluetoothWeight: 0.8 pounds (362.9g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 26,
+            "name": "HyperX Cloud Orbit S",
+            "image": "https://mesajilgamer.com/wp-content/uploads/sites/7/2021/04/023254-2-1.png",
+            "specifications": "Driver: 100mm neodymiumImpedance: Not disclosedFrequency response: 10-50,000 HzMic: Unidirectional condenserConnectivity: 3.5mm, USB Type-A, USB Type-CWeight: 0.8 pounds(362.9g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 27,
+            "name": "Asus ROG Delta S",
+            "image": "https://dlcdnwebimgs.asus.com/files/media/6A881975-EAF7-4666-BD57-CE6D402C3EC2/v2/img/kv/rog-delta-s-wireless.png",
+            "specifications": "Driver: 50mm neodymiumImpedance: 32 OhmsFrequency response: 20-40,000 HzMic: Noise-cancelling condenserConnectivity: USB Type-C or USB-C to USB-A adapterWeight: 0.7 pounds (320g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 28,
+            "name": "Corsair Void RGB Elite USB",
+            "image": "https://www.corsair.com/medias/sys_master/images/images/h9e/hc7/9325680394270/-CA-9011204-EU-Gallery-VOID-RGB-ELITE-USB-WHITE-01.png",
+            "specifications": "Driver: 50mm neodymiumImpedance: 32 OhmsFrequency response: 20-30,000 HzMic: Omnidirectional condenserConnectivity: USB Type-AWeight: 0.9 pounds(390g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        },
+        {
+            "id": 29,
+            "name": "SteelSeries Arctis Pro Wireless",
+            "image": "https://res-4.cloudinary.com/grover/image/upload/e_trim/c_limit,f_auto,fl_png8.lossy,h_1280,q_auto,w_1280/v1602086800/kkeot4zqebm6hkcpxozv.png",
+            "specifications": "Driver: 40mm neodymiumImpedance: 32 OhmsFrequency response: 20-40,000 HzMic: Bidirectional condenserConnectivity: USB Type-A wireless dongle or Bluetooth 4.1Weight: 0.8 pounds(357g)",
+            "price": "1",
+            "stock": 1000,
+            "category": "headset"
+        }
+    ]
+}
