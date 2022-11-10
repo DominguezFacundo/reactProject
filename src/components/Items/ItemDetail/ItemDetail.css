@@ -1,0 +1,37 @@
+.item-detail-body {
+    height: 100vh;
+}
+
+.item-detail-name {
+    color: #1976d2;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.item-detail-specification{
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.item-detail-price {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.item-detail-counter{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-detail-stock {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.item-detail-description {
+    color: white;
+    font-weight: bold;
+}

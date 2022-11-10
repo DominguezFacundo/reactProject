@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+#root {
+  height: 100vh;
+  background-color: rgb(25, 25, 25);
 }
 
 .nav-list {
@@ -9,7 +17,7 @@
 }
 
 .nav {
-  background-color: #FCF8EC;
+  background-color: #EEEEEE;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -21,7 +29,7 @@
   font-size: 2rem;
 }
 
-.nav ul {
+.categories {
   width: 100%;
   justify-content: center;
   padding: 0;
@@ -33,13 +41,13 @@
 }
 
 .nav a, .nav-brand {
-  color: #456268;
+  color: #393E46;
   text-decoration: none;
   font-weight: bold;
 }
 
 .nav a:hover {
-  color: #79A3B1;
+  color: #1976d2;
 }
 
 .cart-widget {
@@ -47,8 +55,10 @@
 }
 
   .main-title {
+    color: white;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 4rem;
 }

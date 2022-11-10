@@ -1,5 +1,5 @@
 import React from 'react';
-import Item from './Item';
+import Item from '../Items/Item/Item';
 
 const ItemList = ({ products }) => {
     return (
@@ -14,10 +14,8 @@ const ItemList = ({ products }) => {
 const styles = {
     container:{
       display: "flex",
-      flexDirection: "row",
       justifyContent: "space-around",
-      alignItems: "center",
-      flexWrap: "wrap",
+      flexWrap: "wrap"
     }
   }
 

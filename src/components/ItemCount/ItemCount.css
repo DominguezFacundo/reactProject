@@ -1,0 +1,32 @@
+.counter-subtractBtn,
+.counter-addBtn {
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-products-button:hover,
+.counter-subtractBtn:hover,
+.counter-addBtn:hover {
+  background-color: #1976d2;
+}
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.counter-amount {
+  color: white;
+    font-weight: bold;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.count-number,
+.count-text {
+  font-size: 1rem;
+  font-weight: bold;
+}
