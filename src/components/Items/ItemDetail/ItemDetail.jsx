@@ -11,16 +11,16 @@ import { Context } from "../../../Context/CartContext";
 const ItemDetail = ({ item }) => {
 
   const [isPressedButton, setIsPressedButton] = useState(false);
-  const { cart, addItem, isInCart } = useContext(Context);
+  const { addItem } = useContext(Context);
 
-  let stock = 0;
+/*   let stock = 0;
   if (isInCart(item.id)) {
     const itemFound = cart.find((item) => item.id);
     stock = item.stock - itemFound.count;
     console.log(stock);
   } else {
     stock = item.stock;
-  }
+  } */
 
   const onAdd = (count) => {
     setIsPressedButton(true);
@@ -44,17 +44,26 @@ const ItemDetail = ({ item }) => {
         <h2 className="item-detail-price">Price: ${item.price}</h2>
         <div className="item-detail-counter">
           {!isPressedButton ? (
-            <ItemCount className="item-detail-counter" stock={stock} initial={1} onAdd={onAdd}  />
+            <ItemCount className="item-detail-counter" stock={item.stock} initial={1} onAdd={onAdd}  />
           ) : (
+            <div className="buttons-container">
+              <Link style={{ textDecoration: "none", color:"black" }} to="/">
+              <Button sx={{ mr: 2, backgroundColor: "#FFFFFF", fontWeight: "bold",
+                  ":hover": { backgroundColor: "#1976d2", color: "#FFFFFF" }, }} variant="contain">
+                Keep buying!
+              </Button>
+            </Link>
+            
             <Link style={{ textDecoration: "none", color:"black" }} to="/cart">
-              <Button sx={{ backgroundColor: "#FFFFFF", fontWeight: "bold",
+              <Button sx={{ ml: 2, backgroundColor: "#FFFFFF", fontWeight: "bold",
                   ":hover": { backgroundColor: "#1976d2", color: "#FFFFFF" }, }} variant="contain">
                 Go to cart
               </Button>
             </Link>
+            </div>
           )}
         </div>
-        <h4 className="item-detail-stock"> Remaining Stock: {stock}</h4>
+        <h4 className="item-detail-stock"> Remaining Stock: {item.stock}</h4>
       </Grid>
     </Grid>
   );

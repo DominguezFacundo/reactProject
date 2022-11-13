@@ -25,7 +25,6 @@ const ItemDetailContainer = () => {
         });
       })
       .catch((error) => {
-        setLoading(true)
         console.log(error);
       })
       .finally(setLoading(false));

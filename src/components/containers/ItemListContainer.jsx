@@ -15,7 +15,7 @@ const ItemListContainer = ({ greeting }) => {
 
 
   const productCollection = collection(db, "products");
-  const q = idCategory ? query(productCollection, where('category', '==', idCategory)) : productCollection;
+const q = idCategory ? query(productCollection, where('category', '==', idCategory)) : productCollection;
 
   useEffect(() => {
     getDocs(q)
@@ -29,19 +29,18 @@ const ItemListContainer = ({ greeting }) => {
       setProducts(listProducts);
     })
     .catch((error) => {
-      setLoading(true);
       console.log(error);
     })
     .finally(setLoading(false));
 
-  }, [q]);
+  }, [idCategory]);
 
   return (
     <div className="item-list-container">
       <div className="item-list-header">
         <h1 className="main-title">{greeting}</h1>
         <div>
-        { loading ? <h1 style={{color: "white"}}>CARGANDO</h1> : <ItemList products={products} /> }
+        { loading ? <CircularIndeterminate /> : <ItemList products={products} /> }
         </div>
       </div>
     </div>
