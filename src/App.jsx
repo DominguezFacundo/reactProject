@@ -5,12 +5,13 @@ import ItemDetailContainer from "./components/containers/ItemDetailContainer";
 import Cart from "./components/containers/CartView/Cart";
 import CartContext from "./Context/CartContext";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  const message = "Welcome to the kuro market";
+  const message = "Welcome to the peripherals Dominguez";
 
   return (
-    <>
+    <div className="body">
       <BrowserRouter>
         <CartContext>
           <Navbar />
@@ -22,8 +23,9 @@ function App() {
             <Route path="*" element={<ItemListContainer />} />
           </Routes>
         </CartContext>
+        <Footer />
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

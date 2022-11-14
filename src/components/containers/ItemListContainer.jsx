@@ -31,7 +31,9 @@ const q = idCategory ? query(productCollection, where('category', '==', idCatego
     .catch((error) => {
       console.log(error);
     })
-    .finally(setLoading(false));
+    .finally(()=> {
+      setLoading(false)
+    });
 
   }, [idCategory]);
 

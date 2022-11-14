@@ -77,10 +77,10 @@ const Cart = () => {
   };
 
   return (
-    <div>
+    <div className="cart-container">
       {quantity === 0 ? (
         loading ? (
-          <CircularIndeterminate sx={{ height: "100vh", margin: "auto auto" }} />
+          <CircularIndeterminate />
         ) : (
           
           <Grid height="100vh" container alignContent="center" sx={{ p: 5}} >

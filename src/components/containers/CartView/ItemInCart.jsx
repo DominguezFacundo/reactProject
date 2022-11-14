@@ -36,7 +36,7 @@ const ItemInCart = ({ item, isOrderView }) => {
         <Typography variant="h6" color="#ffffff" textAlign="center">$ {totalItemPrice.toFixed(2)} </Typography>
         </Grid>
         <Grid item xs={2} sx={{margin: "auto 0"}}>
-          {isOrderView ? "" : <Button sx={{color: "#ffffff"}} ><DeleteForeverIcon sx={{height: 45, width: 40}} onClick={() => removeItem(item.id)} /></Button>}
+          {isOrderView ? "" : <Button sx={{color: "#ffffff"}} ><DeleteForeverIcon sx={{height: 45, width: 40}} onClick={() => removeItem(item.name, item.id)} /></Button>}
         </Grid>
       </Grid>
     </Card>

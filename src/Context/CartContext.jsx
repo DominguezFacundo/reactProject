@@ -51,9 +51,9 @@ const CartContext = ({ children }) => {
     toastNotification(`Added ${item.name} to the cart!`)
 }
  
-const removeItem = (item, itemId) => {
+const removeItem = (itemName, itemId) => {
   setCart(cart.filter((item) => item.id !== itemId));
-  toastNotification(`${item.name} was removed from the cart.`);
+  toastNotification(`${itemName} was removed from the cart.`);
 }
 
 const isInCart = (itemId) => cart.some((item) => item.id === itemId);

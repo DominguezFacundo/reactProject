@@ -13,15 +13,6 @@ const ItemDetail = ({ item }) => {
   const [isPressedButton, setIsPressedButton] = useState(false);
   const { addItem } = useContext(Context);
 
-/*   let stock = 0;
-  if (isInCart(item.id)) {
-    const itemFound = cart.find((item) => item.id);
-    stock = item.stock - itemFound.count;
-    console.log(stock);
-  } else {
-    stock = item.stock;
-  } */
-
   const onAdd = (count) => {
     setIsPressedButton(true);
     addItem(item, count);
@@ -38,7 +29,7 @@ const ItemDetail = ({ item }) => {
       <Grid item xs={4} sx={{ml: 4}}>
         <h1 className="item-detail-name">{item.name}</h1>
         <h3 className="item-detail-description">
-          Specifications:{" "}
+          Specifications:
           <span className="item-detail-specification"> {item.description} </span>
         </h3>
         <h2 className="item-detail-price">Price: ${item.price}</h2>

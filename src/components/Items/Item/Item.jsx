@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Item = ({ product }) => {
   return (    
     
-    <Card className="item-card" sx={{ maxWidth: 300, p: 3, m: 2, ":hover":{  boxShadow: "10px 12px 15px #1976d2", backgroundColor: "#EEEEEE"} }}>
+    <Card className="item-card" sx={{ maxWidth: 300, height: 450, p: 3, m: 2, ":hover":{  boxShadow: "10px 12px 15px #1976d2", backgroundColor: "#EEEEEE"} }}>
       <CardMedia component="img" height="250" image={product.image} alt={product.name} sx={{ objectFit: "contain" }} />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div" textAlign={"center"}>

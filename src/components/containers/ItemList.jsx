@@ -1,22 +1,17 @@
-import React from 'react';
-import Item from '../Items/Item/Item';
+import { Grid } from "@mui/material";
+import React from "react";
+import Item from "../Items/Item/Item";
 
 const ItemList = ({ products }) => {
-    return (
-        <div style={styles.container}>
-            {products.map((product) =>
-                <Item key={product.id} product={product} />
-            )}
-        </div>
-    )
-}
+  return (
+    <Grid container>
+      {products.map((product) => (
+        <Grid item xs={2}>
+          <Item key={product.id} product={product} />
+        </Grid>
+      ))}
+    </Grid>
+  );
+};
 
-const styles = {
-    container:{
-      display: "flex",
-      justifyContent: "space-around",
-      flexWrap: "wrap"
-    }
-  }
-
-export default ItemList
+export default ItemList;

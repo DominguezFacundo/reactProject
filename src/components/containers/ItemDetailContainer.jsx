@@ -5,11 +5,9 @@ import ItemDetail from "../Items/ItemDetail/ItemDetail";
 import { getDoc, collection, doc } from "firebase/firestore";
 import { db } from "../../firebase/firebase";
 
-
-
 const ItemDetailContainer = () => {
   const [item, setItem] = useState({});
-  const [loading, setLoading] = useState([true]);
+  const [loading, setLoading] = useState(true);
 
   const { idItem } = useParams();
 
@@ -27,16 +25,14 @@ const ItemDetailContainer = () => {
       .catch((error) => {
         console.log(error);
       })
-      .finally(setLoading(false));
+      .finally(()=>{
+        setLoading(false)
+      });
   }, [idItem]);
 
   return (
-    <>
-    {
-        loading ? <CircularIndeterminate /> : <ItemDetail item={item} />
-    }
-    </>
-  )
+    <>{loading ? <CircularIndeterminate /> : <ItemDetail item={item} />}</>
+  );
 };
 
 export default ItemDetailContainer;
