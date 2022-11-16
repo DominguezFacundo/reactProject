@@ -7,7 +7,7 @@ import { Button, CardMedia, Typography } from "@mui/material";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import { Link } from "react-router-dom";
 
-const ItemInCart = ({ item, isItThere }) => {
+const ItemInCart = ({ item }) => {
   const { removeItem } = useContext(Context);
   const totalItemPrice = item.price * item.quantity
 
@@ -36,7 +36,7 @@ const ItemInCart = ({ item, isItThere }) => {
         <Typography variant="h6" color="#ffffff" textAlign="center">$ {totalItemPrice.toFixed(2)} </Typography>
         </Grid>
         <Grid item xs={2} sx={{margin: "auto 0"}}>
-          {isItThere ? "" : <Button sx={{color: "#ffffff"}} ><DeleteForeverIcon sx={{height: 45, width: 40}} onClick={() => removeItem(item.name, item.id)} /></Button>}
+          <Button sx={{color: "#ffffff"}} ><DeleteForeverIcon sx={{height: 45, width: 40}} onClick={() => removeItem(item.name, item.id)} /></Button>
         </Grid>
       </Grid>
     </Card>
