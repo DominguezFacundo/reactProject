@@ -15,4 +15,8 @@
 
 ***
 
+##Deployed site on netlify:
+
+**To visit our site please click _[here](https://phenomenal-moonbeam-27d1d6.netlify.app/)_**
+
 **Thanks for cheacking my project out and have a great day!**
