@@ -46,7 +46,6 @@ const CartContext = ({ children }) => {
     } else {
         setCart([...cart, {...item, quantity: qty}])
         setQuantity(quantity + qty)
-        console.log("cart", [...cart, {...item, quantity: qty}]);
     }
     toastNotification(`Added ${item.name} to the cart!`)
 }

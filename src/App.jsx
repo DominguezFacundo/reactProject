@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  const message = "Welcome to the peripherals Dominguez";
+  const message = "Welcome to peripherals Dominguez";
 
   return (
     <div className="body">

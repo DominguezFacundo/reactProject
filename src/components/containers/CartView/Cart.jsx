@@ -97,7 +97,7 @@ const Cart = () => {
       ) : (
         <>
           {cart.map((item) => {
-            return <ItemInCart key={item.id} item={item} isOrderView={false} />;
+            return <ItemInCart key={item.id} item={item} isItThere={false} />;
           })}
           <Card
             sx={{
